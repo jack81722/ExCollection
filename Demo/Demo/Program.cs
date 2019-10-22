@@ -17,6 +17,8 @@ namespace Demo
             demo4.Start();
             IntersectDemo demo5 = new IntersectDemo();
             demo5.Start();
+            DropoutStackDemo.AddDemo demo6 = new DropoutStackDemo.AddDemo();
+            demo6.Start();
 
             Console.ReadLine();
         }
